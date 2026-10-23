@@ -387,3 +387,22 @@ footer {
     }
 }
 
+/* Profile Picture */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    display: block;
+    margin: 15px auto;
+}
+
+/* Smaller profile picture on mobile */
+@media (max-width: 600px) {
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+}
+    
